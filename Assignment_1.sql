@@ -54,7 +54,7 @@ ALTER TABLE Customer ALTER COLUMN CustomerName VARCHAR(255) NOT NULL
 
 
 TASK 3:
---Fetch the data where the Customer’s name is ending with ‘N’ also get the purchaseamount value greater than 500
+--Fetch the data where the Customerâ€™s name is ending with â€˜Nâ€™ also get the purchaseamount value greater than 500
 
 select * from customer where customername like '%n' and purchaseamount > 500
 
@@ -81,7 +81,8 @@ select o.orderdate,s.salesmanname,c.customername,s.commission,s.city from salesm
 inner join customer c on o.ordersid=c.customerid where c.purchaseamount between 500 and 15000
 
 TASK 6:
---Using right join fetch all the results from Salesman and Orders table.
+--Using right join fetch all the results from Salesman and Orders table.
+
 
 select * from salesman s right join orders o on s.salesmanid=o.ordersid
 
