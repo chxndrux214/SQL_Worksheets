@@ -1,4 +1,5 @@
-# ABC Fashion Sales Order Processing System
+# Assignment_1
+## ABC Fashion Sales Order Processing System
 
 ## Problem Statement
 
@@ -42,5 +43,41 @@ The dataset and the script for the table creation and record insertion can be fo
 1. Clone the repository to your local machine.
 2. Review the SQL scripts in the `scripts/` folder.
 3. Execute the scripts in your preferred SQL environment to perform the operations listed above.
+   
+# Assignment_2
+
+## Jomato Data Analysis
+
+## About the Dataset
+
+You work for a data analytics company, and your client is a food delivery platform similar to Jomato. They have provided you with a dataset containing information about various restaurants in a city. Your task is to analyze this dataset using SQL queries to extract valuable insights and generate reports for your client.
+
+## Tasks to be Performed
+
+### 1. Create a User-Defined Function
+- Create a user-defined function to insert the word "Chicken" into the term "Quick Bites," resulting in "Quick Chicken Bites."
+- Use this function to display the restaurant name and cuisine type with the maximum number of ratings.
+
+### 2. Create a Rating Status Column
+- Create a `Rating Status` column to classify ratings as follows:
+  - `Excellent`: More than 4 stars.
+  - `Good`: Above 3.5 stars and below 5 stars.
+  - `Average`: Above 3 stars and below 3.5 stars.
+  - `Bad`: Below 3 stars.
+
+### 3. Calculate Ceil, Floor, and Absolute Values
+- Find the `Ceil`, `Floor`, and `Absolute` values of the `Rating` column.
+- Display the current date and separately display the year, month name, and day.
+
+### 4. Display Restaurant Type and Total Average Cost
+- Use the `ROLLUP` function to display the restaurant type and total average cost.
+
+## Instructions
+
+1. Clone the repository to your local machine.
+2. Review the SQL scripts in the `scripts/` folder.
+3. Execute the scripts in your preferred SQL environment to perform the operations listed above.
+
+
 
 .
