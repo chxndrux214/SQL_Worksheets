@@ -78,6 +78,41 @@ You work for a data analytics company, and your client is a food delivery platfo
 2. Review the SQL scripts in the `scripts/` folder.
 3. Execute the scripts in your preferred SQL environment to perform the operations listed above.
 
+# Assignment 3
+
+## Jomato Data Analysis
+
+## About the Dataset
+
+You work for a data analytics company, and your client is a food delivery platform similar to Jomato. They have provided you with a dataset containing information about various restaurants in a city. Your task is to analyze this dataset using SQL queries to extract valuable insights and generate reports for your client.
+
+## Tasks to be Performed
+
+### 1. Create a User-Defined Function
+- Develop a user-defined function to insert the word "Chicken" into the term "Quick Bites," transforming it into "Quick Chicken Bites."
+- Utilize this function to display the restaurant name and cuisine type with the maximum number of ratings.
+
+### 2. Create a Rating Status Column
+- Introduce a `Rating Status` column to classify ratings based on the following criteria:
+  - **Excellent**: Ratings above 4 stars.
+  - **Good**: Ratings between 3.5 and 4 stars.
+  - **Average**: Ratings between 3 and 3.5 stars.
+  - **Bad**: Ratings below 3 stars.
+
+### 3. Calculate Ceil, Floor, and Absolute Values
+- Compute the `Ceil`, `Floor`, and `Absolute` values for the `Rating` column.
+- Additionally, display the current date, and separately show the year, month name, and day.
+
+### 4. Display Restaurant Type and Total Average Cost
+- Implement the `ROLLUP` function to display the restaurant type along with the total average cost.
+
+## Instructions
+
+1. Clone the repository to your local machine.
+2. Navigate to the `scripts/` folder and review the SQL scripts provided.
+3. Execute the scripts in your preferred SQL environment to carry out the tasks outlined above.
+
+
 
 
 .
