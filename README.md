@@ -169,6 +169,10 @@ This repository contains a set of SQL queries to analyze customer data related t
    ```bash
    git clone <repository-url>
 
+Review the SQL scripts provided in the scripts/ folder.
+Execute the SQL queries in your preferred SQL environment (e.g., MySQL, PostgreSQL) to perform the analysis tasks outlined above
+
+
 # Casestudy_2
 
 ## Employee Data Analysis
@@ -251,6 +255,9 @@ This repository contains a series of SQL queries aimed at analyzing employee dat
 1. Clone the repository to your local machine using the command:
    ```bash
    git clone <repository-url>
+
+Review the SQL scripts provided in the scripts/ folder.
+Execute the SQL queries in your preferred SQL environment (e.g., MySQL, PostgreSQL) to perform the analysis tasks outlined above
 
 
 
